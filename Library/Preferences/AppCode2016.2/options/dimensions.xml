@@ -3,5 +3,15 @@
     <location key="FileChooserDialogImpl.0.0.1440.900" x="508" y="151" />
     <location key="WELCOME_SCREEN.0.0.1440.900" x="720" y="230" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1440.900" x="438" y="286" />
+    <location key="#Notifications.0.0.1440.900" x="484" y="186" />
+    <location key="SettingsEditor.0.0.1440.900" x="201" y="121" />
+    <location key="ProcessPopupWindow.0.0.1440.900" x="1075" y="736" />
+    <location key="IdeErrosDialog.0.0.1440.900" x="331" y="270" />
+    <location key="SettingsEditor.0.0.1440.900@120dpi" x="146" y="58" />
+    <location key="FileChooserDialogImpl.0.0.1440.900@120dpi" x="458" y="165" />
+    <location key="WELCOME_SCREEN.0.0.1440.900@120dpi" x="719" y="287" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1440.900@120dpi" x="437" y="279" />
+    <size key="ProcessPopupWindow.0.0.1440.900" width="199" height="110" />
+    <size key="NewXcodeProjectWizard.0.0.1440.900" width="600" height="400" />
   </component>
 </application>

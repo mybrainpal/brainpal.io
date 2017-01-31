@@ -2,20 +2,64 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/IdeaProjects/ChatChat-starter" />
+        <option value="$USER_HOME$/IdeaProjects/chat" />
+        <option value="$USER_HOME$/IdeaProjects/test" />
         <option value="$USER_HOME$/Documents/Programming/swift-sample" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Documents/Programming/swift-sample" />
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/ChatChat-starter" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/IdeaProjects/ChatChat-starter" />
     <option name="additionalInfo">
       <map>
         <entry key="$USER_HOME$/Documents/Programming/swift-sample">
           <value>
             <RecentProjectMetaInfo>
+              <option name="build" value="OC-162.2159.3" />
+              <option name="productionCode" value="OC" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474907275215" />
+              <option name="buildTimestamp" value="1474405200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/ChatChat-starter">
+          <value>
+            <RecentProjectMetaInfo>
               <option name="build" value="OC-162.1967.8" />
               <option name="productionCode" value="OC" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1474823584103" />
+              <option name="projectOpenTimestamp" value="1475963130303" />
               <option name="buildTimestamp" value="1473109200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/chat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="OC-162.2159.3" />
+              <option name="productionCode" value="OC" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1475013041128" />
+              <option name="buildTimestamp" value="1474405200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/test">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="OC-162.2159.3" />
+              <option name="productionCode" value="OC" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1475012969748" />
+              <option name="buildTimestamp" value="1474405200000" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

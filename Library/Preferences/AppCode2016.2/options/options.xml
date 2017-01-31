@@ -1,8 +1,11 @@
 <application>
   <component name="PropertiesComponent">
     <property name="evlsprt3.162" value="16" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Documents/Programming/swift-sample/SampleUI.xcodeproj" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/IdeaProjects/ChatChat-starter/ChatChat.xcodeproj&#10;/Users/ohad/IdeaProjects/chat/chat.xcworkspace&#10;/Users/ohad/IdeaProjects/test/test.xcworkspace&#10;/Users/ohad/IdeaProjects/chat/chat/GoogleService-Info.plist&#10;/Users/ohad/IdeaProjects&#10;/Users/ohad/Documents/Programming/swift-sample/SampleUI.xcworkspace&#10;/Users/ohad/.rvm/rubies/ruby-2.2.2/bin/ruby&#10;/Users/ohad/Documents/Programming/swift-sample/SampleUI.xcodeproj" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
-    <property name="lastTip" value="1" />
+    <property name="lastTip" value="8" />
+    <property name="NewXcodeProject.Left" value="iOS.Application" />
+    <property name="NewXcodeProject.Right" value="Page-Based Application" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
   </component>
 </application>
