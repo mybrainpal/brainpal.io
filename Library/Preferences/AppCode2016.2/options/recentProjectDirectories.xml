@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Documents/Programming/swift-sample" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Documents/Programming/swift-sample" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Documents/Programming/swift-sample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="OC-162.1967.8" />
+              <option name="productionCode" value="OC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474823584103" />
+              <option name="buildTimestamp" value="1473109200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
