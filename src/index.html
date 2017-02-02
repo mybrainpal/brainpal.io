@@ -33,63 +33,24 @@
     <!-- CSS Begins-->
     <link href = 'http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'
           rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/flaticon.css' rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/bootstrap.min.css' rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/portfolio.css' rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/animate.min.css' rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/prettyPhoto.css' rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/flexslider.css' rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/tweet-carousel.css' rel = 'stylesheet' type = 'text/css' />
-    <!-- Main Style -->
-    <link href = 'css/style.css' rel = 'stylesheet' type = 'text/css' />
-    <link href = 'css/responsive.css' rel = 'stylesheet' type = 'text/css' />
-    <!-- Color Panel -->
-    <link href = 'css/color_panel.css' rel = 'stylesheet' type = 'text/css' />
-    <!-- Skin Colors -->
-    <link href = 'css/color-schemes/red.css' id = 'changeable-colors' rel = 'stylesheet' type = 'text/css' />
+    <!--<link href = 'css/flaticon.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--<link href = 'css/bootstrap.min.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--<link href = 'css/portfolio.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--<link href = 'css/animate.min.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--<link href = 'css/prettyPhoto.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--<link href = 'css/flexslider.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--<link href = 'css/tweet-carousel.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--&lt;!&ndash; Main Style &ndash;&gt;-->
+    <!--<link href = 'css/style.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--<link href = 'css/responsive.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--&lt;!&ndash; Color Panel &ndash;&gt;-->
+    <!--<link href = 'css/color_panel.css' rel = 'stylesheet' type = 'text/css' />-->
+    <!--&lt;!&ndash; Skin Colors &ndash;&gt;-->
+    <!--<link href = 'css/color-schemes/red.css' id = 'changeable-colors' rel = 'stylesheet' type = 'text/css' />-->
+    <link href = 'css/bundle.min.css' rel = 'stylesheet' type = 'text/css' />
 </head>
 <body id = 'home'>
-<!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src   = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-85392300-1', 'auto');
-    ga('send', 'pageview');
-
-    function gaSubmitEvent() {
-        ga('send', 'event', 'Contact', 'submit', 'Landing page contact');
-    }
-
-    ga(function (tracker) {
-        var clientId = tracker.get('clientId');
-        var navbarCta = document.getElementById("navCallToAction");
-        var textA = "Start Today";
-        var textB = "Get Started";
-        ga('send', 'event', 'Experiment', 'navbar', 'Call to action text');
-        if (clientId.slice(-1).charCodeAt(0) % 2 == 0) {
-            navbarCta.innerHTML = textA;
-            navbarCta.addEventListener("click", function () {
-                ga('send', 'event', 'Experiment', 'navbar', 'clickedOn=' + textA);
-            })
-        } else {
-            navbarCta.innerHTML = textB;
-            navbarCta.addEventListener("click", function () {
-                ga('send', 'event', 'Experiment', 'navbar', 'clickedOn=' + textB);
-            })
-        }
-    });
-
-</script>
 <!-- Page Loader -->
 <div id = 'pageloader'>
     <div class = 'loader-item fa fa-spin colored-border'></div>
@@ -698,7 +659,6 @@
 </section>
 <!-- Features Section Ends -->
 
-
 <!-- Testimonials Section Begins -->
 <section class = 'testimonials'>
     <div class = 'container testimonials-inner'>
@@ -998,47 +958,6 @@
 </section>
 <!-- Contact Section Ends -->
 
-<!-- Download Now Section Begins -->
-<section id = 'download-now' class = 'download-now'>
-    <div class = 'container download-now-inner'>
-        <!-- Download Buttons -->
-        <div class = 'row text-center'>
-            <!-- Button -->
-            <a class = 'btn slide-btn iphone animated' data-animation = 'fadeInLeft'
-               data-animation-delay = '300' href = '#'>Download Now <i class = 'fa fa-apple'></i></a>
-            <!-- Button -->
-            <a class = 'btn slide-btn bg-color animated' data-animation = 'fadeInRight'
-               data-animation-delay = '300' href = '#'><i class = 'fa fa-android'></i> Download Now</a>
-        </div>
-    </div>
-</section>
-<!-- Download Now Section Begins -->
-
-<!-- Copyright Section Begins -->
-<section id = 'copyright' class = 'copyright'>
-    <div class = 'container'>
-        <!-- Social Media -->
-        <div class = 'row social-media animated' data-animation = 'fadeInUp' data-animation-delay = '400'>
-            <div class = 'col-md-12'>
-                <!-- Icons -->
-                <a href = '#' target = '_blank'><i class = 'fa fa-facebook'></i></a>
-                <a href = '#' target = '_blank'><i class = 'fa fa-twitter'></i></a>
-                <a href = '#' target = '_blank'><i class = 'fa fa-google-plus'></i></a>
-                <a href = '#' target = '_blank'><i class = 'fa fa-instagram'></i></a>
-                <a href = '#' target = '_blank'><i class = 'fa fa-pinterest'></i></a>
-                <a href = '#' target = '_blank'><i class = 'fa fa-envelope'></i></a>
-            </div>
-        </div>
-        <div class = 'row'>
-            <!-- Copyright Title -->
-            <div class = 'col-md-12 text-center'>
-                <p>Copyright 2014 Layer. All Rights Reserved.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Copyright Section Ends -->
-
 <!-- BrainPal script -->
     <script>
         (function () {
@@ -1051,34 +970,34 @@
     </script>
 <!-- BrainPal script ends-->
 <!-- Script Begins -->
-<script type = 'text/javascript' src = 'js/jquery-1.11.0.min.js'></script>
-<script type = 'text/javascript' src = 'js/bootstrap.min.js'></script>
-<script type = 'text/javascript' src = 'js/bootstrap-hover-dropdown.min.js'></script>
-<script type = 'text/javascript' src = 'js/bootstrapValidator.min.js'></script>
-<script type = 'text/javascript' src = 'js/jquery.sticky.js'></script>
-<!-- Slider and Features Canvas -->
-<script type = 'text/javascript' src = 'js/jquery.flexslider-min.js'></script>
-<!-- Overlay -->
-<script type = 'text/javascript' src = 'js/overlay/modernizr.js'></script>
-<!-- Screenshot -->
-<script type = 'text/javascript' src = 'js/jquery.flexisel.js'></script>
-<!-- Portfolio -->
-<script type = 'text/javascript' src = 'js/jquery.prettyPhoto.js'></script>
-<script type = 'text/javascript' src = 'js/jquery.mixitup.min.js'></script>
-<script type = 'text/javascript' src = 'js/jquery.fitvids.js'></script>
-<script type = 'text/javascript' src = 'js/jquery.easing.1.3.js'></script>
-<!-- Counting Section -->
-<script type = 'text/javascript' src = 'js/jquery.appear.js'></script>
-<!-- Expertise Circular Progress Bar -->
-<script type = 'text/javascript' src = 'js/effect.js'></script>
-<!-- Twitter -->
-<script type = 'text/javascript' src = 'js/tweet/carousel.js'></script>
-<script type = 'text/javascript' src = 'js/tweet/scripts.js'></script>
-<script type = 'text/javascript' src = 'js/tweet/tweetie.min.js'></script>
-<!-- Custom -->
-<script type = 'text/javascript' src = 'js/custom.js'></script>
-<!-- Color -->
-<script type = 'text/javascript' src = 'js/color-panel.js'></script>
+<!--<script type = 'text/javascript' src = 'js/jquery-1.11.0.min.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/bootstrap.min.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/bootstrap-hover-dropdown.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/bootstrapValidator.min.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/jquery.sticky.js'></script>-->
+<!--&lt;!&ndash; Slider and Features Canvas &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/jquery.flexslider-min.js'></script>-->
+<!--&lt;!&ndash; Overlay &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/overlay/modernizr.js'></script>-->
+<!--&lt;!&ndash; Screenshot &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/jquery.flexisel.js'></script>-->
+<!--&lt;!&ndash; Portfolio &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/jquery.prettyPhoto.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/jquery.mixitup.min.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/jquery.fitvids.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/jquery.easing.1.3.js'></script>-->
+<!--&lt;!&ndash; Counting Section &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/jquery.appear.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/effect.js'></script>-->
+<!--&lt;!&ndash; Twitter &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/tweet/carousel.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/tweet/scripts.js'></script>-->
+<!--<script type = 'text/javascript' src = 'js/tweet/tweetie.min.js'></script>-->
+<!--&lt;!&ndash; Custom &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/custom.js'></script>-->
+<!--&lt;!&ndash; Color &ndash;&gt;-->
+<!--<script type = 'text/javascript' src = 'js/color-panel.js'></script>-->
+<script type = 'text/javascript' src = 'js/bundle.js'></script>
 <!-- Script Ends -->
 </body>
 

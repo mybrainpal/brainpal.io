@@ -3,8 +3,10 @@
 dashboard/
 .idea
 node_modules
+bower_components
 brainpal.io.iml
 release/
 .tmp/
 .editorconfig
 doc/
+build/

@@ -1,0 +1,22 @@
+{
+    "name": "brainpal.io",
+    "description": "BrainPal homepage",
+    "main": "release/index.html",
+    "authors": [
+        "Ohad Navon <ohad@brianpal.io>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "brainpal",
+        "homepage"
+    ],
+    "homepage": "https://github.com/mybrainpal/brainpal.io",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests",
+        "doc"
+    ]
+}

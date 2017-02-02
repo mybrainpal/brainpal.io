@@ -581,8 +581,9 @@ header .navbar-nav > li > a {
 }
 
 #header .col-md-12 {
-    padding: 0 5%;
+    padding : 0 5%;
 }
+
 .intro-text h1 {
     font-size      : 6rem;
     font-weight    : 900;
@@ -789,7 +790,7 @@ header .navbar-nav > li > a {
     -webkit-background-size : cover;
     background-repeat       : repeat;
     color                   : #ffffff;
-    display: none;
+    display                 : none;
 }
 
 .features-section {
@@ -1102,7 +1103,7 @@ header .navbar-nav > li > a {
     display     : inline-block;
     font-size   : 55px;
     font-weight : 700;
-    min-height: 60px;
+    min-height  : 60px;
 }
 
 .pricing-box .price h6.small {
@@ -1171,39 +1172,41 @@ header .navbar-nav > li > a {
     background-color : rgba(0, 0, 0, .8);
 }
 
-#screenshots div.after{
-    width: 15%;
-    height: auto;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, .3);
-    background: url(../images/pattern.png);
-    -webkit-transition-property: opacity; /* Safari */
-    -webkit-transition-duration: 500ms; /* Safari */
-    -webkit-transition-delay: 500ms; /* Safari */
-    transition-property: opacity;
-    transition-duration: 500ms;
-    transition-delay: 500ms;
-    filter     : progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#7c000000', endColorstr='#7c000000');
+#screenshots div.after {
+    width                       : 15%;
+    height                      : auto;
+    position                    : absolute;
+    top                         : 5px;
+    right                       : 5px;
+    border-radius               : 5px;
+    border                      : 2px solid rgba(0, 0, 0, .3);
+    background                  : url(../images/pattern.png);
+    -webkit-transition-property : opacity; /* Safari */
+    -webkit-transition-duration : 500ms; /* Safari */
+    -webkit-transition-delay    : 500ms; /* Safari */
+    transition-property         : opacity;
+    transition-duration         : 500ms;
+    transition-delay            : 500ms;
+    filter                      : progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#7c000000', endColorstr='#7c000000');
 }
-#screenshots div.after img{
-    border: none;
+
+#screenshots div.after img {
+    border : none;
 }
-#screenshots div.after p{
-    padding: 0;
-    margin: 0;
-    font-size: 25px;
-    line-height: 28px;
+
+#screenshots div.after p {
+    padding     : 0;
+    margin      : 0;
+    font-size   : 25px;
+    line-height : 28px;
 }
 
 .screen-img:hover div.after {
-    opacity: 0;
+    opacity : 0;
 }
 
 .screen-img:hover div.after p.white {
-    color: #ccc;
+    color : #ccc;
 }
 
 .screen-img img {
@@ -1260,19 +1263,20 @@ header .navbar-nav > li > a {
     padding : 0 0 0px;
 }
 
-div.fact-number.percent div.factor{
-    width       : 160px;
+div.fact-number.percent div.factor {
+    width : 160px;
 }
+
 .fact-number.percent::after {
-    content:'%';
-    color: #e74c3c;
+    content     : '%';
+    color       : #e74c3c;
     line-height : 45px;
     padding     : 10px 0px 20px 0;
     font-size   : 60px;
     width       : auto;
     font-weight : 900;
-    position: relative;
-    left: -50px;
+    position    : relative;
+    left        : -50px;
 }
 
 .fact-number .factor {
@@ -1281,7 +1285,7 @@ div.fact-number.percent div.factor{
     padding     : 10px 0px 20px 0;
     font-size   : 60px;
     width       : 100%;
-    text-align: center;
+    text-align  : center;
     font-weight : 900;
 }
 
@@ -1428,7 +1432,7 @@ div.fact-number.percent div.factor{
 
 /* =========================== TESTIMONIALS SECTION ============================== */
 .testimonials {
-    display: none;
+    display : none;
 }
 
 .testimonials .testimonials-inner {
@@ -1484,7 +1488,7 @@ bg-text {
 
 /* =========================== TEAM SECTION ============================== */
 #team {
-    display: none;
+    display                 : none;
     background-image        : url(../images/bg/team-bg.jpg);
     background-attachment   : fixed !important;
     background-size         : cover;

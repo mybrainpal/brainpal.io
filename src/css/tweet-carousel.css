@@ -32,7 +32,7 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-	
+
 .owl-carousel .owl-item{
 	float: left;
 	cursor: ew-resize;
@@ -51,7 +51,7 @@
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(grabbing.html) 8 8, move;
 }
 
@@ -81,11 +81,11 @@
 	color: #000;
 	display: inline-block;
 	zoom: 1;
-	*display: inline;*//*IE7 life-saver */
+	display: inline;/*IE7 life-saver */
 	margin: 5px;
 	padding: 2px 2px;
 	font-size: 24px;
-	filter: Alpha(Opacity=50);*//*IE7 fix*/
+	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.8;
 	transition: all 0.3s ease-in-out 0s;
 	position:absolute;
