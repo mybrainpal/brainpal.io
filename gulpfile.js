@@ -11,6 +11,7 @@ var order        = require("gulp-order");
 var print        = require('gulp-print');
 var htmlmin = require('gulp-htmlmin');
 var sourcemaps = require('gulp-sourcemaps');
+var htmlreplace = require('gulp-html-replace');
 
 
 var DEST = 'release/';
@@ -77,7 +78,15 @@ gulp.task('styles', function () {
 });
 
 gulp.task('html', function () {
-    gulp.src('./src/**/*.html')
+    gulp.src(['./src/**/*.html', '!./src/index.html'])
+        .pipe(htmlmin({removeComments: true, collapseWhitespace:true, conservativeCollapse: true}))
+        .pipe(gulp.dest(DEST))
+        .pipe(browserSync.stream());
+    gulp.src(['./src/index.html'])
+        .pipe(htmlreplace({
+                              'css': 'css/bundle.min.css',
+                              'js': 'js/bundle.min.js'
+                          }))
         .pipe(htmlmin({removeComments: true, collapseWhitespace:true, conservativeCollapse: true}))
         .pipe(gulp.dest(DEST))
         .pipe(browserSync.stream());
