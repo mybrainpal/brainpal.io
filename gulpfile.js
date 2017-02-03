@@ -95,10 +95,13 @@ gulp.task('html', function () {
 gulp.task('copyFiles', function () {
     gulp.src([
                  './src/**/*',
-                 './api/**/*',
                  '!./src/**/*.{css,js,html}'
              ])
-        .pipe(gulp.dest(DEST ));
+        .pipe(gulp.dest(DEST));
+    gulp.src([
+                 './api/**/*'
+             ])
+        .pipe(gulp.dest(DEST + 'api'));
 });
 
 gulp.task('build', ['styles', 'scripts', 'copyFiles', 'html'], function () {
