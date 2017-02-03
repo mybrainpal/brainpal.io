@@ -95,6 +95,7 @@ gulp.task('html', function () {
 gulp.task('copyFiles', function () {
     gulp.src([
                  './src/**/*',
+                 './api/**/*',
                  '!./src/**/*.{css,js,html}'
              ])
         .pipe(gulp.dest(DEST ));
