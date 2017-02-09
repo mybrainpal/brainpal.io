@@ -395,7 +395,9 @@ var appMaster = {
 
 
     screenShot: function () {
-
+        $("#screenshots").find("img").each(function () {
+            if ($(this).attr("data-src")) $(this).attr("src", $(this).attr("data-src"));
+        });
         $("#screenshot")
             .owlCarousel({
                              items: 2,

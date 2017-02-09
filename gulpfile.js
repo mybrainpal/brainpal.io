@@ -121,7 +121,7 @@ gulp.task('watch', function () {
     // Watch .html files
     gulp.watch('src/*.html', browserSync.reload);
     // Watch .js files
-    gulp.watch('src/js/**/*.js', ['scripts']);
+    gulp.watch('src/js/**/*.js', ['scripts'], browserSync.reload);
     // Watch .css files
     gulp.watch('src/css/**/*.css', ['styles']);
 });
